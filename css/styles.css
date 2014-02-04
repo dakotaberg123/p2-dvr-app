@@ -1,0 +1,76 @@
+
+.powerbutton,
+.mutebutton,
+.recallbutton,
+.play-pausebutton,
+.guidebutton {
+	width: 90px;
+}
+
+.menubutton,
+.inputbutton,
+.volumedown,
+.volumeup,
+.channeldown,
+.channelup,
+.rewind,
+.forward,
+.pageupbutton,
+.pagedownbutton {
+	width: 70px;
+}
+
+.volumebuttontag {
+	font-size: 12px;
+	margin: 0 105px;
+}
+
+.channelbuttontag {
+	font-size: 12px;
+	margin: 0 100px;
+}
+
+.play-pausebuttontag {
+	font-size: 12px;
+	margin: 0 95px;
+}
+
+.myrecordingsbuttontag {
+	font-size: 12px;
+	margin: 0 85px;
+}
+
+.volumebuttontag,
+.channelbuttontag,
+.play-pausebuttontag,
+.myrecordingsbuttontag {
+	color: lightgrey;
+}
+
+.navigator,
+.keypad {
+	width: 91px;
+	height: 40px;
+	margin: 2px;
+	padding: 0;
+}
+
+
+.navigator-pad,
+.number-pad {
+	width: 230px;
+	margin: 10px 0 10px 15px;
+}
+
+.panel {
+	margin: 20px 0 0 0 ;
+	padding: 10px 0;
+	background: white;
+}
+
+
+
+
+
+
+
