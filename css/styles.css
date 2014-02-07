@@ -20,24 +20,34 @@
 	width: 70px;
 }
 
+.volumedown,
+.channeldown,
+.rewind,
+.pagedownbutton,
+.menubutton {
+	margin: 0 0 0 20px;
+}
+
 .volumebuttontag {
 	font-size: 12px;
-	margin: 0 105px;
+	margin: 0 125px;
 }
 
 .channelbuttontag {
 	font-size: 12px;
-	margin: 0 100px;
+	margin: 0 120px;
+
 }
 
 .play-pausebuttontag {
 	font-size: 12px;
-	margin: 0 95px;
+	margin: 0 115px;
+
 }
 
 .myrecordingsbuttontag {
 	font-size: 12px;
-	margin: 0 85px;
+	margin: 0 105px;
 }
 
 .volumebuttontag,
@@ -47,19 +57,8 @@
 	color: lightgrey;
 }
 
-.navigator,
-.keypad {
-	width: 91px;
-	height: 40px;
-	margin: 2px;
+table tr th, table tr td {
 	padding: 0;
-}
-
-
-.navigator-pad,
-.number-pad {
-	width: 230px;
-	margin: 10px 0 10px 15px;
 }
 
 .panel {
@@ -68,9 +67,15 @@
 	background: white;
 }
 
+h1 {
+	text-align: center;
+}
 
-
-
+.keypad {
+	width: 60px;
+	height: 40px;
+	margin: 0;
+}
 
 
 

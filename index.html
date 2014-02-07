@@ -12,6 +12,7 @@
   <body>
   
   <div class="panel">
+
    <!-- POWER -->
     <div class="button-bar power">
       <ul class="button-group round tiny-12 tiny-centered columns">
@@ -71,49 +72,109 @@
    <!-- PLAY BUTTONS END -->
      </div>
 
-     <!-- NUMBER PAD DROPDOWN -->
-    <a href="#" data-dropdown="drop" class="tiny tiny-centered columns success round button dropdown number-pad">NUMBER PAD</a><br>
-    <ul id="drop" data-dropdown-content class="f-dropdown">
-      <ul class="button-group">
-        <li><a href="#" class="button secondary keypad"> 1 </a></li>
-        <li><a href="#" class="button secondary keypad"> 2 </a></li>
-        <li><a href="#" class="button secondary keypad"> 3 </a></li>
-        <li><a href="#" class="button secondary keypad"> 4 </a></li>
-        <li><a href="#" class="button secondary keypad"> 5 </a></li>
-        <li><a href="#" class="button secondary keypad"> 6 </a></li>
-        <li><a href="#" class="button secondary keypad"> 7 </a></li>
-        <li><a href="#" class="button secondary keypad"> 8 </a></li>
-        <li><a href="#" class="button secondary keypad"> 9 </a></li>
-        <li><a href="#" class="button secondary keypad"> * </a></li>
-        <li><a href="#" class="button secondary keypad"> 0 </a></li>
-        <li><a href="#" class="button secondary keypad"> # </a></li>
-      </ul>
-    </ul>
-    <!-- NUMBER PAD END -->
+    <!-- Off Canvas Start -->
 
-     <!-- NAVIGATOR DROPDOWN -->
-    <a href="#" data-dropdown="drop" class="tiny tiny-centered columns success round button dropdown navigator-pad">NAVIGATOR</a><br>
-    <ul id="drop" data-dropdown-content class="f-dropdown">
-      <ul class="button-group">
-        <li><a href="#" class="button alert navigator"> &#8662; </a></li>
-        <li><a href="#" class="button alert navigator"> &#8657; </a></li>
-        <li><a href="#" class="button alert navigator"> &#8663; </a></li>
-        <li><a href="#" class="button alert navigator"> &#8656; </a></li>
-        <li><a href="#" class="button alert navigator"> &#10006; </a></li>
-        <li><a href="#" class="button alert navigator"> &#8658; </a></li>
-        <li><a href="#" class="button alert navigator"> &#8665; </a></li>
-        <li><a href="#" class="button alert navigator"> &#8659; </a></li>
-        <li><a href="#" class="button alert navigator"> &#8664; </a></li>
+    <div class="off-canvas-wrap">
+  <div class="inner-wrap">
+    <nav class="tab-bar">
+      <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+      </section>
+
+      <section class="middle tab-bar-section">
+        <h1 class="title"> Browse </h1>
+      </section>
+
+      <section class="right-small">
+        <a class="right-off-canvas-toggle menu-icon" ><span></span></a>
+      </section>
+    </nav>
+
+    <aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>Navigator</label></li>
+
+         <!-- Navigator Pad -->
+  <div class="row">
+    <div class="columns small-12">
+      
+      <table>
+        <tbody>
+          <tr>
+            <td><a href="#" class="tiny button success keypad">  </a></td>
+            <td><a href="#" class="tiny button success keypad"> &#8657; </a></td>
+            <td><a href="#" class="tiny button success keypad">  </a></td>
+          </tr>
+          <tr>
+            <td><a href="#" class="tiny button success keypad"> &#8656; </a></td>
+            <td><a href="#" class="tiny button success keypad"> &#10006; </a></td>
+            <td><a href="#" class="tiny button success keypad"> &#8658; </a></td>
+          </tr>
+          <tr>
+            <td><a href="#" class="tiny button success keypad">  </a></td>
+            <td><a href="#" class="tiny button success keypad"> &#8659; </a></td>
+            <td><a href="#" class="tiny button success keypad">  </a></td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+    <!-- Navigator Pad -->
       </ul>
-    </ul>
-    <!-- NAVIGATOR END -->
+    </aside>
+
+    <aside class="right-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>Number Pad</label></li>
+        <!-- Number Pad -->
+  <div class="row">
+    <div class="columns small-12">
+      
+      <table>
+        <tbody>
+          <tr>
+            <td><a href="#" class="tiny button success keypad"> 1 </a></td>
+            <td><a href="#" class="tiny button success keypad"> 2 </a></td>
+            <td><a href="#" class="tiny button success keypad"> 3 </a></td>
+          </tr>
+          <tr>
+            <td><a href="#" class="tiny button success keypad"> 4 </a></td>
+            <td><a href="#" class="tiny button success keypad"> 5 </a></td>
+            <td><a href="#" class="tiny button success keypad"> 6 </a></td>
+          </tr>
+          <tr>
+            <td><a href="#" class="tiny button success keypad"> 7 </a></td>
+            <td><a href="#" class="tiny button success keypad"> 8 </a></td>
+            <td><a href="#" class="tiny button success keypad"> 9 </a></td>
+          </tr>
+          <tr>
+            <td><a href="#" class="tiny button success keypad"> * </a></td>
+            <td><a href="#" class="tiny button success keypad"> 0 </a></td>
+            <td><a href="#" class="tiny button success keypad"> # </a></td>          
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+    <!-- End Number Pad -->
+      </ul>
+    </aside>
+
+    <section class="main-section">
+      <!-- content goes here -->
+    </section>
+
+  <a class="exit-off-canvas"></a>
+
 
   
-
+<p class="myrecordingsbuttontag">MY RECORDINGS</p>
    <!-- ORBIT SLIDER -->
   <div class="tabs-content">
     <div id="recordtab">
-      <p class="myrecordingsbuttontag">MY RECORDINGS</p>
+      
         <ul class="example-orbit" data-orbit>
           <li>
             <img src="img/breaking-bad.png" alt="slide 1" />
@@ -136,6 +197,10 @@
         </ul>
     </div>
     <!-- ORBIT SLIDER END -->
+
+    </div>
+</div>
+  <!-- End Off Canvas -->
 
 
     <script src="js/vendor/jquery.js"></script>
